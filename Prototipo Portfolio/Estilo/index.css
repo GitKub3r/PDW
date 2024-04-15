@@ -1,0 +1,192 @@
+#header {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 50px;
+
+  padding: 20px;
+  background-color: rgb(35, 35, 35);
+
+  transition: background-color 0.5s;
+}
+
+#header.scrolled {
+  background-color: black;
+}
+
+#header a:nth-last-child(1) {
+  position: absolute;
+  left: 20px;
+}
+
+#sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.info-container {
+  background-color: rgb(25, 25, 25);
+  padding: 20px;
+
+  border-radius: 20px;
+
+  width: 40%;
+
+  align-items: start;
+}
+
+#info-box {
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+
+  position: relative;
+}
+
+#info {
+  height: 40vh;
+}
+
+#proyects {
+  justify-content: start;
+}
+
+.proyect-container {
+  width: 65%;
+  height: fit-content;
+  padding: 20px;
+
+  background-color: rgb(25, 25, 25);
+  border-radius: 20px;
+
+  position: relative;
+
+  align-items: start;
+  justify-content: start;
+}
+
+.proyect-text {
+  width: 70%;
+}
+
+.proyect-date {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.proyect-content-container {
+  width: 100%;
+}
+
+.proyect-img {
+  width: 75%;
+  height: 33vh;
+
+  border: 5px solid rgb(150, 150, 150);
+  border-radius: 20px;
+
+  margin: 20px;
+}
+
+.repo {
+  width: 764px;
+  padding: 10px;
+
+  margin: 30px 0px;
+}
+
+.tech {
+  padding: 10px;
+  width: 100px;
+
+  border: 2px solid rgb(100, 100, 100);
+  border-radius: 10px;
+
+  text-align: center;
+  position: relative;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  font-weight: bold;
+
+  transition: background-color 0.5s;
+}
+
+.tech:hover {
+  background-color: rgba(100, 100, 100, 0.3);
+}
+
+.tech-container {
+  margin-top: 30px;
+  width: 100%;
+  gap: 20px;
+
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.icon-link {
+  margin-top: 20px;
+}
+
+#education-container {
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 500px, 500px;
+}
+
+#contact-container {
+  justify-content: space-between;
+  height: 30vh;
+  padding-bottom: 40px;
+}
+
+.contact-card {
+  background-color: rgb(25, 25, 25);
+  padding: 20px;
+  width: 30%;
+
+  border-radius: 20px;
+  justify-content: start;
+
+  position: relative;
+}
+
+.contact-card-button {
+  background-color: transparent;
+  border: none;
+  border-left: 2px solid rgb(150, 150, 150);
+  border-radius: 0px;
+
+  padding-left: 10px;
+
+  position: absolute;
+  right: 5px;
+
+  transition: border-left-color 0.5s ease;
+}
+
+.contact-card-button:hover {
+  opacity: 1;
+  border-left-color: rgb(155, 0, 221);
+}
+
+.card-image {
+  width: 20px;
+}
+
+.copied {
+  opacity: 1;
+  border-left-color: lime;
+}
+
+.copied:hover {
+  opacity: 1;
+  border-left-color: lime;
+}

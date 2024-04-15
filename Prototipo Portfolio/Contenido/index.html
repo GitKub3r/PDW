@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desarrollador Web</title>
+
+    <link rel="stylesheet" href="../Estilo/principal.css" />
+    <link rel="stylesheet" href="../Estilo/index.css" />
+
+    <script src="../Scripts/fixed-header.js"></script>
+    <script src="../Scripts/copy-contact.js"></script>
+  </head>
+  <body>
+    <div id="sticky">
+      <div class="flex-h-container" id="header">
+        <a href="#proyects">Proyectos</a>
+        <a href="#education">Formación</a>
+        <a href="#contact">Contacto</a>
+        <a href="#skills">Tecnologías</a>
+        <a
+          href="../Multimedia/CV Programador.pdf"
+          download="CV Sergio González Alcántara"
+          >Descargar CV</a
+        >
+      </div>
+    </div>
+
+    <div class="flex-v-container" id="center">
+      <div class="flex-v-container container" id="info">
+        <span class="big-title link-pointer" id="info-title">Bienvenido</span>
+
+        <div class="flex-h-container" id="info-box">
+          <div class="flex-v-container info-container" id="info1">
+            <span class="medium-title" id="info1-title"
+              >Información personal</span
+            >
+            <hr />
+            <span class="text" id="info1-text">
+              Mi nombre es Sergio González Alcántara. Soy un joven apasionado
+              por las nuevas tecnologías y por el mundo del desarrollo.
+              <br /><br />
+              Estoy interesado en el desarrollo web, desarrollarme como
+              profesional, conocer nuevas metodolgías y herramientas nuevas.
+            </span>
+            <a
+              href="https://twitter.com/home"
+              target="_blank"
+              class="icon-link"
+              id="github-link"
+            >
+              <button class="icon-button" id="github-img">
+                <img
+                  src="../Multimedia/twitter.png"
+                  alt=""
+                  id="button-icon-img"
+                />
+                Twitter
+              </button>
+            </a>
+          </div>
+          <div class="info-container flex-v-container" id="info2">
+            <span class="medium-title" id="info2-title">Aspiraciones</span>
+            <hr />
+
+            <span class="text" id="info2-text">
+              Mi objetivo es ser un desarrollador front-end experimentado y
+              creativo <br /><br />
+              Ayudar a las empresas a tener un entorno web accesible, eficaz,
+              intuitivo y seguro.
+            </span>
+
+            <a
+              href="https://www.linkedin.com/in/sergio-gonz%C3%A1lez-alc%C3%A1ntara-526633300/"
+              target="_blank"
+              class="icon-link"
+              id="linkedin-link"
+            >
+              <button class="icon-button" id="github-img">
+                <img
+                  src="../Multimedia/instagram.png"
+                  alt=""
+                  id="button-icon-img"
+                />
+                Instagram
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="section-end" />
+
+      <div class="flex-v-container container" id="proyects">
+        <a name="proyects" class="big-title link-pointer" id="proyects-title"
+          >Proyectos</a
+        >
+
+        <div class="flex-v-container proyect-container" id="proyect1">
+          <span class="medium-title" id="proyect1-title"
+            >Identificador de clases</span
+          >
+          <span class="text proyect-date" id="proyect1-date">31/03/2024</span>
+          <hr />
+
+          <div class="flex-v-container proyect-content-container">
+            <img
+              src="../Multimedia/proyecto1.png"
+              alt=""
+              class="proyect-img"
+              id="proyect1-img"
+            />
+
+            <span class="text proyect-text" id="proyect1-text">
+              Aplicación web enfocada a generar números aleatorios basados en un
+              input del usuario. Los números generados se muestran en una
+              cuadrícula con un color basado en su número. <br /><br />
+              Me ha servido para aprender selección de clase, iteración de las
+              mismas y manipulación del DOM.
+            </span>
+          </div>
+          <div class="flex-h-container tech-container" id="proyect1-tech">
+            <div class="tech" id="vs-code-tech">
+              <img
+                src="../Multimedia/VSCode.png"
+                alt="VSCode"
+                id="button-icon-img"
+              />
+              <span class="text">VS Code</span>
+            </div>
+            <div class="tech" id="html-tech">
+              <img
+                src="../Multimedia/html.png"
+                alt="HTML"
+                id="button-icon-img"
+              />
+              <span class="text">HTML</span>
+            </div>
+            <div class="tech" id="css-tech">
+              <img src="../Multimedia/css.png" alt="CSS" id="button-icon-img" />
+              <span class="text">CSS</span>
+            </div>
+            <div class="tech" id="js-tech">
+              <img src="../Multimedia/js.png" alt="" id="button-icon-img" />
+              <span class="text">Javascript</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://github.com/GitKub3r/Identificador-Clases/tree/master">
+          <button class="repo">Repositorio</button>
+        </a>
+
+        <div class="flex-v-container proyect-container" id="proyect1">
+          <span class="medium-title" id="proyect1-title"
+            >Aplicación Base de Datos CRUD</span
+          >
+          <span class="text proyect-date" id="proyect1-date">19/12/2023</span>
+          <hr />
+
+          <div class="flex-v-container proyect-content-container">
+            <img
+              src="../Multimedia/proyecto2.png"
+              alt=""
+              class="proyect-img"
+              id="proyect1-img"
+            />
+
+            <span class="text proyect-text" id="proyect2-text">
+              Aplicación de escritorio enfocada a manejar una Base de Datos de
+              una sola tabla con las operaciones CRUD. Además de incluir
+              calculos adicionales como el número total de entidades o un sueldo
+              medio. <br /><br />
+              Me ha servido para aprender conexiones a BD en Java, además de
+              vincular el front-end con el back-end.
+            </span>
+          </div>
+          <div class="flex-h-container tech-container" id="proyect2-tech">
+            <div class="tech" id="vs-code-tech">
+              <img
+                src="../Multimedia/intellij.png"
+                alt="VSCode"
+                id="button-icon-img"
+              />
+              <span class="text">IntelliJ</span>
+            </div>
+            <div class="tech" id="html-tech">
+              <img
+                src="../Multimedia/java.png"
+                alt="HTML"
+                id="button-icon-img"
+              />
+              <span class="text">Java</span>
+            </div>
+            <div class="tech" id="css-tech">
+              <img src="../Multimedia/db.png" alt="CSS" id="button-icon-img" />
+              <span class="text">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://github.com/GitKub3r?tab=repositories">
+          <button class="repo">Repositorio</button>
+        </a>
+
+        <div class="flex-v-container proyect-container" id="proyect3">
+          <span class="medium-title" id="proyect3-title"
+            >Generador de Contraseñas</span
+          >
+          <span class="text proyect-date" id="proyect3-date">10/04/2024</span>
+          <hr />
+
+          <div class="flex-v-container proyect-content-container">
+            <img
+              src="../Multimedia/proyecto3.png"
+              alt=""
+              class="proyect-img"
+              id="proyect1-img"
+            />
+
+            <span class="text proyect-text" id="proyect3-text">
+              Aplicación web enfocada en generar una contraseña de carácter
+              aleatorio. Regido por unos requisitos seleccionables a través de
+              unas opciones que varian la contraseña generado (símbolos,
+              números, mayúsculas) <br /><br />
+              Me ha servido para práctica del lenguaje JavaScript, manipulación
+              del DOM y control de Errores.
+            </span>
+          </div>
+          <div class="flex-h-container tech-container" id="proyect3-tech">
+            <div class="tech" id="vs-code-tech">
+              <img
+                src="../Multimedia/VSCode.png"
+                alt="VSCode"
+                id="button-icon-img"
+              />
+              <span class="text">VS Code</span>
+            </div>
+            <div class="tech" id="html-tech">
+              <img
+                src="../Multimedia/html.png"
+                alt="HTML"
+                id="button-icon-img"
+              />
+              <span class="text">HTML</span>
+            </div>
+            <div class="tech" id="css-tech">
+              <img src="../Multimedia/css.png" alt="CSS" id="button-icon-img" />
+              <span class="text">CSS</span>
+            </div>
+            <div class="tech" id="js-tech">
+              <img src="../Multimedia/js.png" alt="" id="button-icon-img" />
+              <span class="text">Javascript</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://github.com/GitKub3r?tab=repositories">
+          <button class="repo">Repositorio</button>
+        </a>
+
+        <div class="flex-v-container proyect-container" id="proyect4">
+          <span class="medium-title" id="proyect4-title">Lista de tareas</span>
+          <span class="text proyect-date" id="proyect4-date">12/04/2024</span>
+          <hr />
+
+          <div class="flex-v-container proyect-content-container">
+            <img
+              src="../Multimedia/proyecto4.png"
+              alt=""
+              class="proyect-img"
+              id="proyect4-img"
+            />
+
+            <span class="text proyect-text" id="proyect4-text">
+              Aplicación web enfocada en guardar una lista con tareas
+              introducidas por el usuario, con la oportunidad de guardar los
+              elementos en memoria<br /><br />
+              Me ha servido para práctica del lenguaje Typescript, manipulación
+              del DOM y acceso a la memoria local del navegador.
+            </span>
+          </div>
+          <div class="flex-h-container tech-container" id="proyect4-tech">
+            <div class="tech" id="vs-code-tech">
+              <img
+                src="../Multimedia/VSCode.png"
+                alt="VSCode"
+                id="button-icon-img"
+              />
+              <span class="text">VS Code</span>
+            </div>
+            <div class="tech" id="html-tech">
+              <img
+                src="../Multimedia/html.png"
+                alt="HTML"
+                id="button-icon-img"
+              />
+              <span class="text">HTML</span>
+            </div>
+            <div class="tech" id="css-tech">
+              <img src="../Multimedia/css.png" alt="CSS" id="button-icon-img" />
+              <span class="text">CSS</span>
+            </div>
+            <div class="tech" id="js-tech">
+              <img src="../Multimedia/ts.png" alt="" id="button-icon-img" />
+              <span class="text">Typescript</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://github.com/GitKub3r?tab=repositories">
+          <button class="repo">Repositorio</button>
+        </a>
+      </div>
+
+      <hr class="section-end" />
+
+      <div class="flex-v-container container" id="education">
+        <a name="education" class="big-title link-pointer" id="education-title"
+          >Formación</a
+        >
+
+        <div class="grid-container" id="education-container">
+          <div class="grid-element" id="education1">
+            <span class="medium-title" id="education1-title"
+              >Educación Secundaria Obligatoria</span
+            >
+            <span class="text proyect-date" id="proyect1-date">17/06/2020</span>
+            <hr />
+
+            <span class="text" id="education1-text">
+              Graduado en la enseñaza secundaria obligatoria en el centro "IES
+              Villa de Valdemoro" del municipio Valdemoro en Madrid, España.
+              <br /><br />
+              Adquirido conocimientos básicos en telecomunicaciones informáticas
+              y de comunicación (TIC). Oportunidad de cursar Bachillerato.
+            </span>
+          </div>
+          <div class="grid-element" id="education2">
+            <span class="medium-title" id="education2-title"
+              >Bachillerato Ciencias Sociales</span
+            >
+            <span class="text proyect-date" id="proyect1-date">20/06/2022</span>
+            <hr />
+
+            <span class="text" id="education2-text">
+              Graduado en la enseñanza de Bachillerato, en la rama de ciencias
+              sociales en el centro "IES Villa de Valdemoro" del municipio
+              Valdemoro en Madrid, España. <br /><br />
+              Adquirido conocimientos básicos e inicialización dentro de la
+              programación (TICO). Oportunidad de cursar Grado Superior.
+            </span>
+          </div>
+          <div class="grid-element" id="education3">
+            <span class="medium-title" id="education3-title"
+              >Grado Superior DAM</span
+            >
+            <span class="text proyect-date" id="proyect1-date">21/06/2024</span>
+            <hr />
+
+            <span class="text" id="education3-text">
+              Graduado en la formación profesional, en la rama de informática en
+              el centro "IES Domenico Scarlatti" de la ciudad de Aranjuez en
+              Madrid, España. <br /><br />
+              Adquirido conocimientos avanzados en programación y desarrollo de
+              software. Oportunidad de salir al mercado laborar.
+            </span>
+          </div>
+          <div class="grid-element" id="education4">
+            <span class="medium-title" id="education4-title"
+              >Especialización WEB</span
+            >
+            <span class="text proyect-date" id="proyect1-date">05/06/2024</span>
+            <hr />
+
+            <span class="text" id="education4-text">
+              Especializado en desarrollo de aplicaciones web, en la rama de
+              informática mediante la "Fundación Juanjo Torrejón" de la ciudad
+              de Aranjuez en Madrid, España. <br /><br />
+              Adquirido conocimientos avanzados en el desarrollo web y conexión
+              de aplicaciones front-end y back-end.
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <hr class="section-end" />
+
+      <div class="flex-v-container container" id="contact">
+        <a name="contact" class="big-title link-pointer" id="contact-title"
+          >Contacto</a
+        >
+
+        <div class="flex-v-container" id="contact-container"></div>
+      </div>
+
+      <a name="skills" class="big-title link-pointer" id="skills-title"
+        >Tecnologías</a
+      >
+    </div>
+  </body>
+</html>
